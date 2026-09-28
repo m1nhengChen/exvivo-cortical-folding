@@ -84,6 +84,12 @@ The location of the data is set in `threehinge/_env.py`, or through the environm
 | `EXVIVO_AABC_EXAMPLE` | the AABC session shown as the in-vivo example in Figure 4a; no default |
 | `FREESURFER_HOME` | FreeSurfer 7.x |
 
+## License
+
+The code is released under the MIT License; see [LICENSE](LICENSE).
+
+The surfaces in `data/` are derived works and keep the terms of the datasets they come from: Subject1-6 are under CC BY 4.0, following Zhu et al., and Subject7-12 under CC0 1.0, following Irwin et al.
+
 ## Citation
 
 If you use this code, please cite our paper. The entry will be completed on publication.
