@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# a zipped duplicate of pipeline/
+pipeline.zip
+# maintenance scripts for keeping this copy in step with the working tree; not part of the release
+threehinge/tools/
