@@ -57,14 +57,5 @@ src/run_pipeline.sh image.nii.gz --seg gm_wm_mask.nii.gz --id 91 --out results/
 | `--threads <T>` | Threads for FreeSurfer stages, default 8 |
 | `--keep-work` | Keep intermediates |
 
-## Validation
 
-- **12/12** released subjects built with this chain
-- **6/6** agreement with an independent parcellation on the subjects that have one
-- End-to-end run reproduces Subject7 **exactly**: 391,981 vertices, 1.963 ± 0.685 mm, 35 parcels
 
-> [!IMPORTANT]
-> Parcellation is the part to check on a new subject. The registration route is validated, but
-> a new subject has no ground truth of its own. Read the start-to-registration angle printed at
-> the end: it must be under **64°**, and normal is **6.9-23.0°**. Well above that, inspect the
-> parcellation before using it.
