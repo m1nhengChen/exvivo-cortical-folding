@@ -73,15 +73,12 @@ The output names follow an older numbering, in which `FIG1_…` is Figure 2 and 
 python src/threehinge/figures/fig_connectivity_matrix.py
 ```
 
-The scripts need the `exvivo` conda environment. The surface panels of Figure 2a and the network of Figure 5f are rendered beforehand, the latter in Blender 4.2.
-
 The location of the data is set in `threehinge/_env.py`, or through the environment:
 
 | Variable | Points at |
 |---|---|
 | `EXVIVO_ROOT` | the project data: FreeSurfer subjects, landmarks, tractography, results |
 | `EXVIVO_AABC` | AABC Release 2 |
-| `EXVIVO_AABC_EXAMPLE` | the AABC session shown as the in-vivo example in Figure 4a; no default |
 | `FREESURFER_HOME` | FreeSurfer 7.x |
 
 ## License
