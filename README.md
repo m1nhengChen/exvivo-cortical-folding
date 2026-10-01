@@ -86,8 +86,7 @@ The location of the data is set in `threehinge/_env.py`, or through the environm
 The code is released under the MIT [LICENSE](LICENSE). The surfaces in `data/` are derived works and keep the terms of the datasets they come from: Subject1-6 are under CC BY 4.0, following Zhu et al., and Subject7-12 under CC0 1.0, following Irwin et al.
 
 ## Citation
-
-If you use this code, please cite our paper. The entry will be completed on publication.
+If you find our code/data useful in your work, please cite our paper :
 
 ```bibtex
 @article{exvivo3hg,
