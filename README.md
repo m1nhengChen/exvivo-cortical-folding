@@ -37,9 +37,7 @@ Subject7-12 are patients 1-6 of the Dryad dataset, in that order. If you use the
 | `rh.sphere.vtk` | spherical parameterisation |
 | `rh.sphere.reg.vtk` | sphere registered to fsaverage |
 
-Each surface carries `thickness`, `curv`, `sulc`, `area` and `parcel` per vertex. `parcel` is the Desikan–Killiany label, with 0 for the medial wall; the names are in `data/parcel_labels.tsv`. A few vertices have extreme curvature values, so set the `curv` range by hand, to about ±0.6, when colouring by it.
-
-Subject1-6 have an independent parcellation to compare against and Subject7-12 do not, so the parcellation of the latter has been checked only indirectly.
+Each surface carries `thickness`, `curv`, `sulc`, `area` and `parcel` per vertex. `parcel` is the Desikan–Killiany label, with 0 for the medial wall; the names are in `data/parcel_labels.tsv`.
 
 ## Three-hinge analysis
 
