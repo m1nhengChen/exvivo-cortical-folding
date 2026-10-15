@@ -87,12 +87,16 @@ The code is released under the MIT [LICENSE](LICENSE). The surfaces in `data/` a
 If you find our code/data useful in your work, please cite our paper :
 
 ```bibtex
-@article{exvivo3hg,
-  title={},
-  author={},
-  journal={},
-  year={}
+@article {chen2026three,
+	author = {Chen, Minheng and Dong, Xiuyu and Cheng, Jiale and Hu, Dan and Liu, Tianming and Zhu, Dajiang and Li, Gang},
+	title = {Three-hinge gyri link individualized folding topology to cortical and superficial white-matter diffusion organization},
+	elocation-id = {2026.10.14.757725},
+	year = {2026},
+	doi = {10.64898/2026.10.14.757725},
+	publisher = {Cold Spring Harbor Laboratory},
+	journal = {bioRxiv}
 }
+
 ```
 
 The surfaces in `data/` are derived from the following datasets. Please cite them as well when using the surfaces.
