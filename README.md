@@ -84,7 +84,7 @@ The location of the data is set in `threehinge/_env.py`, or through the environm
 The code is released under the MIT [LICENSE](LICENSE). The surfaces in `data/` are derived works and keep the terms of the datasets they come from: Subject1-6 are under CC BY 4.0, following Zhu et al., and Subject7-12 under CC0 1.0, following Irwin et al.
 
 ## Citation
-If you find our code/data useful in your work, please cite our paper :
+If you use our code, reconstructed surfaces, or three-hinge gyri analysis in your research, please cite our paper:
 
 ```bibtex
 @article {chen2026three,
@@ -98,7 +98,32 @@ If you find our code/data useful in your work, please cite our paper :
 }
 
 ```
+If you use the surface reconstruction pipeline (`run_pipeline.sh`),
+please also cite the following methodological papers, as the pipeline
+builds upon components of iBEAT V2.0 and purple-mri:
 
+```bibtex
+@article{wang2023ibeat,
+  title={iBEAT V2. 0: a multisite-applicable, deep learning-based pipeline for infant cerebral cortical surface reconstruction},
+  author={Wang, Li and Wu, Zhengwang and Chen, Liangjun and Sun, Yue and Lin, Weili and Li, Gang},
+  journal={Nature protocols},
+  volume={18},
+  number={5},
+  pages={1488--1509},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{khandelwal2024automated,
+  title={Automated deep learning segmentation of high-resolution 7 tesla postmortem MRI for quantitative analysis of structure-pathology correlations in neurodegenerative diseases},
+  author={Khandelwal, Pulkit and Duong, Michael Tran and Sadaghiani, Shokufeh and Lim, Sydney and Denning, Amanda E and Chung, Eunice and Ravikumar, Sadhana and Arezoumandan, Sanaz and Peterson, Claire and Bedard, Madigan and others},
+  journal={Imaging Neuroscience},
+  volume={2},
+  pages={imag--2},
+  year={2024},
+  publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA~…}
+}
+```
 The surfaces in `data/` are derived from the following datasets. Please cite them as well when using the surfaces.
 
 ```bibtex
